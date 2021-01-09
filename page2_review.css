@@ -1,0 +1,145 @@
+#search_panel {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  ::placeholder {
+    color: grey;
+    font-style: italic;
+    font-size: 18px;
+    padding-left: 10px;
+    font-family: "Noto Sans KR";
+    align-content: center;
+    justify-content: center;
+  }
+  
+  #Search_bt {
+    background-color: #ffd13f;
+    /*opacity: 0.5;*/
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    padding-right: 25px;
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-right: 0;
+    cursor: pointer;
+    width: 60px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  #si {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    color: black;
+    border-radius: 6px;
+    padding-top: 18px;
+    padding-bottom: 4px;
+    padding-right: 6px;
+    padding-left: 20px;
+    margin-right: 6px;
+    background-color: #ffd13f;
+    justify-self: center;
+    font-size: 24px;
+    /*opacity: 0.5;*/
+  }
+  
+  #logo {
+    height: 3.5em;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 36px;
+    align-items: center;
+  }
+  
+  #name {
+    width: 40em;
+    border-width: 4px;
+    border-radius: 4px;
+  }
+  
+  .login_panel {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  #login_bt,
+  #sign_in {
+    margin-right: 20px;
+    font-weight: 600;
+    width: 76px;
+    text-align: center;
+    background-color: #f8aa00;
+    padding: 10px;
+    padding-top: 14px;
+    border-radius: 24px;
+    font-family: "Noto sans KR";
+  }
+    form{
+      margin-left:200px;
+      font-weight:800;
+      font-size:22px;
+    }
+    h3{
+      color: #FF9933;
+      margin-left:400px;
+      font-size:40px;
+      font-weight:800;
+    }
+    div{
+      margin-left:15px;
+      margin-top:11px;
+      margin-bottom:11px;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    .review{
+      width:500px;
+      height:50px;
+      margin-top:10px;
+    }
+    .container{
+      display:grid;
+      grid-template-columns:650px 1fr;
+    }
+    #lecture{
+      grid-column:1;
+      margin-top:70px;
+    }
+    #professor{
+      grid-column:2;
+      margin-top:70px;
+    }
+    .submit{
+    background-color: #ffd13f;
+    /*opacity: 0.5;*/
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 60px;
+    height: 35px;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    margin-left:250px;
+    }
+    *{
+      font-family:'NanumSquare';
+    }

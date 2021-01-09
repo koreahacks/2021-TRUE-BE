@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+<link rel="stylesheet" href="page2_review.css">
+<script
+      src="https://kit.fontawesome.com/3e3fb6f6f4.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <nav id="navbar" class="navbar">
+    <img id="logo" src="로고.png" onclick="javascript:location.href='page1_review.html'">
+    <div id="search_panel">
+      <i id="si" class="fas fa-search"></i>
+      <input
+        id="name"
+        type="text"
+        placeholder="강의명, 교수님 성함을 입력해주세요."
+      />
+      <span id="Search_bt">Search</span>
+    </div>
+
+    <div class="login_panel">
+      <div id="login_bt">로그인</div>
+      <div id="sign_in">회원가입</div>
+    </div>
+  </nav>
+  <div class='container'>
+    <div id='lecture'>
+    <h3 id="review1">강의 평가</h3>
+    <form>
+    <div class='grid'>
+      <div class="lecture">실시간 여부</div>
+        <div class='radio'>
+          <label><input type="radio" name="l1" value="y1">yes</label>
+          <label><input type="radio" name="l1" value="n1">no</label>
+        </div>
+      <div class="lecture">오픈북 여부</div>
+        <div class='radio'>
+        <label><input type="radio" name="l2" value="y2">yes</label>
+        <label><input type="radio" name="l2" value="n2">no</label>
+      </div>
+      <div class="lecture">팀플 여부</div>
+        <div class='radio'>
+        <label><input type="radio" name="l3" value="y3">yes</label>
+        <label><input type="radio" name="l3" value="n3">no</label>
+      </div>
+      <div class="lecture">과제 대체 여부</div>
+        <div class='radio'>
+        <label><input type="radio" name="l4" value="y4">yes</label>
+        <label><input type="radio" name="l4" value="n4">no</label>
+      </div>
+      <div class="lecture">수업 평가</div>
+        <div class='radio'>
+        <label><input type="checkbox" name="l5" value="a5">명강</label>
+        <label><input type="checkbox" name="l5" value="b5">꿀강</label>
+        <label><input type="checkbox" name="l5" value="c5">해당 없음</label>
+      </div>
+      <div>한줄평
+        <input class="review" type="text">
+      </div>
+      </div>
+      <input type='submit' class='submit'>
+    </form>
+  </div>
+    <div id='professor'>
+    <h3 id='review2'>교수님 평가</h3>
+    <form>
+      <div class='grid'>
+        <div class="professor">인품</div>
+        <div class='radio2'>
+          <label><input type="radio" name="p1" value="11">1</label>
+          <label><input type="radio" name="p1" value="21">2</label>
+          <label><input type="radio" name="p1" value="31">3</label>
+          <label><input type="radio" name="p1" value="41">4</label>
+          <label><input type="radio" name="p1" value="51">5</label>
+        </div>
+        <div class="professor">강의 전달력</div>
+        <div class='radio2'>
+          <label><input type="radio" name="p2" value="12">1</label>
+          <label><input type="radio" name="p2" value="22">2</label>
+          <label><input type="radio" name="p2" value="32">3</label>
+          <label><input type="radio" name="p2" value="42">4</label>
+          <label><input type="radio" name="p2" value="52">5</label>
+        </div>
+        <div class="professor">자료 퀄리티</div>
+        <div class='radio2'>
+          <label><input type="radio" name="p3" value="13">1</label>
+          <label><input type="radio" name="p3" value="23">2</label>
+          <label><input type="radio" name="p3" value="33">3</label>
+          <label><input type="radio" name="p3" value="43">4</label>
+          <label><input type="radio" name="p3" value="53">5</label>
+        </div>
+        <div class="professor">질의응답 속도</div>
+        <div class='radio2'>
+          <label><input type="radio" name="p4" value="14">1</label>
+          <label><input type="radio" name="p4" value="24">2</label>
+          <label><input type="radio" name="p4" value="34">3</label>
+          <label><input type="radio" name="p4" value="44">4</label>
+          <label><input type="radio" name="p4" value="54">5</label>
+        </div>
+        <div class="professor">판서 능력</div>
+        <div class='radio2'>
+          <label><input type="radio" name="p5" value="15">1</label>
+          <label><input type="radio" name="p5" value="25">2</label>
+          <label><input type="radio" name="p5" value="35">3</label>
+          <label><input type="radio" name="p5" value="45">4</label>
+          <label><input type="radio" name="p5" value="55">5</label>
+        </div>
+        <div>한줄평
+          <input class="review" type="text">
+        </div>
+      </div>
+      <input type='submit' class='submit'>
+      </form>
+      </div>
+    </div>
+</body>
+</html>
